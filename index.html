@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salon Pasja</title>
+    <!-- favicon -->
+    <link rel="icon" href="./img/icons/favicon.png" sizes="16x16 23x32" type="image/jpg">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" media="screen">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c5718ddaa5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <!-- <a class="navbar-brand" href="#"><i class="fa-solid fa-hands-holding"></i>&nbsp;&nbsp;Pasja</a> -->
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link px-2 my-2 my-lg-0 mx-lg-2" href="#home">HOME</a>
+                    <a class="nav-link px-2 mb-2 mb-lg-0 mx-lg-2" href="#offer">OFERTA MASAŻY</a>
+                    <!-- <a class="nav-link" aria-disabled="true" href="#aboutus">O nas</a>
+                    <a class="nav-link" aria-disabled="true" href="#team">Zespół</a> -->
+                    <a class="nav-link px-2 mb-2 mb-lg-0 mx-lg-2" href="#reviews">OPINIE</a>
+                    <!--  -->
+                    <a class="nav-link px-2 pe-3 mb-2 mb-lg-0" href="#contact">KONTAKT</a>
+                    <!--  -->
+                    <a target="_blank" class="nav-link bordered px-4 mb-2 mb-lg-0 mx-lg-2"
+                        href="https://booksy.com/pl-pl/140487_pasja-salon-masazu-spa_masaz_22068_bydgoszcz">ZAPISZ
+                        SIĘ
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5" />
+                            <path fill-rule="evenodd"
+                                d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
+                        </svg></a>
+
+
+
+                </div> <!-- navbar end -->
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="hero-img">
+        <div class="hero-text container">
+            <p class="hero-title">PASJA</p>
+            <p class="hero-title-bottom">Salon Masażu & SPA</p>
+            <!-- bootstrap button -->
+
+        </div>
+        <div class="button-container">
+            <a href="#offer" type="button" class="btn btn-outline-light">Zobacz więcej</a>
+        </div>
+
+
+        <div class="hero-shadow"></div>
+        <!-- animated arrows - button -->
+        <!-- <div class="slide-button-container d-flex justify-content-center mb-4">
+            <a href="#aboutus">
+                <div class="round-button">
+                    <div id="cta">
+                        <span class="arrow first next"></span>
+                        <span class="arrow second next"></span>
+                    </div>
+                </div>
+            </a>
+        </div> -->
+
+    </header>
+    <!-- main -->
+    <main>
+
+        <section id="offer" class="offer py-5 px-2 bg-light">
+
+            <h2 class="section-title">Nasze popularne usługi</h2>
+
+            <div class="container-xxl pb-3">
+
+                <!-- over 992px default cards -->
+                <div class="offer-cards d-none d-md-flex row justify-content-center ">
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-classic" class="offer-card ">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/klasyczny.jpg" alt="">
+                            <h5>Masaż Klasyczny</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-relax" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/relaksacyjny.jpg" alt="">
+                            <h5>Masaż Relaksacyjny</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-mtg" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/mtg.jpg" alt="">
+                            <h5>MTG, Terapia Mięśniowo - Powięziowa</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-stone" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/kamieniami.jpg" alt="">
+                            <h5>Masaż Gorącymi Kamieniami</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-madero" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/madero_tiny.jpg" alt="">
+                            <h5>Maderoterapia</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-sport" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/sportowy.jpg" alt="">
+                            <h5>Masaż Sportowy</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-senior" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/senior.jpg" alt="">
+                            <h5>Masaż Leczniczy dla Seniora</h5>
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-1">
+                        <a href="./oferta_desktop.html#massage-chockolate" class="offer-card">
+                            <div class="shadow-card"></div>
+                            <img class="img-card" src="./img/massages/czekoladowy.jpg" alt="">
+                            <h5>Słodki Relaks Czekoladowa Fantazja</h5>
+                        </a>
+                    </div>
+
+                    <div class="booksy-wide col-12 col-md-6 col-lg-4 p-1">
+                        <a href="https://booksy.com/pl-pl/140487_pasja-salon-masazu-spa_masaz_22068_bydgoszcz"
+                            target="_blank" class="offer-card booksy-card text-dark">
+                            <h5 class="h5-wide">Pełna oferta i cennik na</h5>
+                            <img class="img-wide" src="./img/icons/booksy_croped.svg" alt="logo Booksy">
+                        </a>
+                    </div>
+
+
+                </div> <!-- offer cards end -->
+
+                <!-- under 992px accordion -->
+                <div class="accordion mx-auto d-md-none accordion-flush" id="accordionFlush">
+
+                    <!-- 1 -->
+                    <div class="accordion-item mb-2">
+                        <div class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false">
+                                Masaż Klasyczny
+                            </button>
+                        </div>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">Masaż klasyczny to jedna z najpopularniejszych form masażu -
+                                może
+                                być stosowany w ramach treningu sportowego, w rehabilitacji ortopedycznej i
+                                neurologicznej,
+                                w celach leczniczych oraz relaksacyjnych. Masażysta (lub fizjoterapeuta) zajmuje się
+                                całym
+                                ciałem pacjenta, część po części, zaczynając od stóp, a kończąc na karku. W zależności
+                                od
+                                indywidualnego stanu pacjenta, masaż klasyczny może również koncentrować się na jednej
+                                części ciała - na przykład kręgosłupie lub kończynach dolnych.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false">
+                                Masaż klasyczny Relaksacyjny
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">Masaż relaksacyjny ma na celu stymulację uwalniania endorfin w
+                                organizmie i natychmiastową poprawę samooceny. Oprócz stymulowania przepływu krwi i
+                                limfy,
+                                technika ta ma na celu przyniesienie pacjentowi błogości i pełnego relaksu.
+                                <br>
+                                <br>
+                                Opiera się na technikach masażu klasycznego. Obejmuje ruchy głaskania, rozcierania,
+                                ugniatania, uciskania, a kończy się długimi, długimi pociągnięciami, które mają
+                                działanie
+                                kojące i lecznicze.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false">
+                                MTG, Terapia mięśniowo - powięziowa
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">Innowacyjna i nowatorka metoda pracy z ciałem oparty na
+                                integracji
+                                strukturalnej. Ostatnio częściej używana przez Fizjoterapeutów, osteopatów czy
+                                terapeutów
+                                manualnych oraz skuteczniejsza niż masaż Klasyczny.
+                                Masaż Tkanek Głębokich to koncepcja manualnej pracy mięśniowo-powięziowej. Zawiera
+                                zarówno
+                                dokładną diagnostykę funkcjonalną i analityczną, jak i terapeutyczne działanie mające na
+                                celu poprawę zdrowia, funkcji oraz uwolnienia od bólu. Jest sposobem zrozumienia
+                                warstwowego, trójwymiarowego ułożenia tkanek w organizmie. Jest to jedna z najbardziej
+                                skutecznych form masażu leczniczego.
+                                Znajomość anatomii oraz umiejętność posługiwania się wszystkimi składowymi koncepcji MTG
+                                sprawia, że jest się wyjątkowo skutecznym w terapii dolegliwości pochodzenia
+                                mięśniowo-powięziowego. Ten rodzaj pracy jest podejściem typowo terapeutycznym
+                                nastawionym
+                                na redukcję dolegliwości bólowych. Wykorzystuje też specjalne pozycje ułożeniowe, które
+                                w
+                                połączeniu z pracą tkankową, mają ogromną zdolność zwiększania zakresów ruchu stawów i
+                                tkanek.
+                                To wszystko sprawia, że jest to jedna z bardziej efektywnych form terapii w przypadkach
+                                dolegliwości chronicznych i przeciążeniach statycznych. Jest idealną formą pracy dla
+                                osób
+                                cierpiących na dolegliwości bólowe z powodu swojej pracy, lub nieprawidłowych nawyków
+                                ruchowych. Sprawdza się również u sportowców wymagających ekstremalnej elastyczności
+                                tkanek,
+                                aby nie dochodziło u nich do urazów przeciążeniowych.
+                                Masaż Tkanek Głębokich może być stosowany jako zabieg prewencyjny u osób aktywnych
+                                fizycznie. Ma też dużą skuteczność w przypadku wad postawy.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false">
+                                Masaż Gorącymi Kamieniami
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse">
+                            <div class="accordion-body">Jest to jeden z najpopularniejszych masaży wykonywanych w
+                                salonach
+                                wellness i spa na całym świecie! Mówi się, że został wynaleziony wcześniej niż
+                                akupunktura!
+                                Wywodzi się ze starożytnych Indii i Chin, gdzie miejscowa ludność przywiązywała dużą
+                                wagę do
+                                połączenia duszy z ciałem.
+                                <br>
+                                <br>
+                                Masaż gorącymi kamieniami został zaprojektowany w celu odblokowania czakr, czyli punktów
+                                energetycznych w naszym ciele. Masażysta przesuwa kamienie wzdłuż meridianów (ścieżek
+                                łączących poszczególne czakry), aby odblokować czakry i przywrócić prawidłowy przepływ
+                                energii.
+                                <br>
+                                <br>
+                                Nie jesteśmy pewni, czy jest to mistyczna kwestia czakr, ale z pewnością byliśmy
+                                świadkami
+                                zwiększonego rozluźnienia mięśni, poprawy krążenia i głębokiego relaksu podczas masażu
+                                gorącymi kamieniami. Ponadto zabieg ten pomaga uspokoić nerwy, złagodzić stres i usunąć
+                                złą
+                                energię. Dzięki wysokiej temperaturze kamieni (ok. 50°C) masaż wspomaga regenerację
+                                mięśni,
+                                poprawia ich elastyczność.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFife" aria-expanded="false">
+                                Maderoterapia
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFife" class="accordion-collapse collapse">
+                            <div class="accordion-body">Maderoterapia jest masażem, który w swoim głównym założeniu ma
+                                pomóc kobietom w osiągnięciu zdrowej i pięknej sylwetki. Holistyczny wymiar zabiegu,
+                                prócz
+                                estetycznego działania na poprawę wyglądu ciała ma za zadanie, zadbać o prawidłowe
+                                funkcjonowanie organizmu. W osiągnięciu tego efektu pomaga indywidualna możliwość doboru
+                                terapii dla każdej osoby. Połączenie wiedzy z zakresu funkcjonowania układu
+                                limfatycznego,
+                                intensywna praca narzędziowa na tkance podskórnej, a także opracowanie powięzi, daje
+                                wielopłaszczyznowy wymiar pełnej terapii. Głęboka praca na tkankach, daje poczucie
+                                zmniejszenia napięcia mięśniowego, dzięki czemu wpływa na odprężenie, wyciszenie i
+                                redukcje
+                                stresu.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false">
+                                Masaż Sportowy
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse">
+                            <div class="accordion-body">Masaż sportowy to nieodłączny element treningu każdego
+                                sportowca.
+                                Wywodzi się z masażu klasycznego, z tą różnicą, że jest wykonywany przez masażystę przy
+                                użyciu większej siły i energii. Masaż sportowy to stały element odnowy biologicznej,
+                                wykorzystywany w profesjonalnych programach treningowych. Pomaga on zapobiegać
+                                kontuzjom,
+                                eliminuje skutki przetrenowania, rozgrzewa i relaksuje mięśnie oraz zapobiega zakwasom
+                                po
+                                ćwiczeniach. Masaż sportowy nie jest jedynie domeną sportowców wyczynowych. Coraz
+                                częściej
+                                korzystają z niego także sportowcy amatorzy, przede wszystkim biegacze.
+                                <br>
+                                <br>
+                                Oprócz funkcji regeneracyjnej masaż sportowy pełni także rolę rozgrzewającą, leczniczą,
+                                rozluźniającą, rozszerza zdolności czynnościowe i podwyższa zdolność mięśni do
+                                działania.
+                                Jako uzupełnienie treningu lub ćwiczeń może także wpływać na ruchomość stawów,
+                                wytrzymałość
+                                i zdolność układu kostno-szkieletowego do znoszenia dużych obciążeń, jak również
+                                poprawiać
+                                ogólną kondycję zawodnika i wydajność oddechową.
+                                <br>
+                                <br>
+                                Dla kogo: dla osób wymagających regeneracji po wysiłku fizycznym.
+                                <br>
+                                <br>
+                                Zadaniem tego masażu jest doprowadzenie w krótkim czasie organizmu do stanu
+                                prawidłowego.
+                                Masaż przewyższa 2-3 krotnie bierny wypoczynek po treningu.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="accordion-item mb-2">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false">
+                                Masaż Klasyczny Leczniczy dla Seniora
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse">
+                            <div class="accordion-body">Masaż klasyczny dla seniora koncentruje się na problemach
+                                charakterystycznych dla starszych osób. Pomaga w dolegliwościach reumatycznych,
+                                zwyrodnieniowych, czy ortopedycznych. Redukuje sztywność mięśni, eliminuje ból stawów i
+                                uodparnia organizm.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed text-center" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false">
+                                Słodki Relaks Czekoladowa Fantazja
+                            </button>
+                        </h2>
+                        <div id="flush-collapseEight" class="accordion-collapse collapse">
+                            <div class="accordion-body">Masaż gorącą czekoladą to idealny pomysł na jesienny relaks.
+                                Masaż
+                                czekoladowy jest dobry na wszystko -rozluznienie, relaks, odpoczynek. Przede wszystkim
+                                czekolada wykorzystywana podczas masażu działa silnie odprężająco, odpowiada za poprawę
+                                krążenia krwi, redukuje nadmiar tkanki tłuszczowej i przeciwdziała przedwczesnemu
+                                starzeniu
+                                się skóry a także zmniejsza widoczność cellulitu.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 booksy -->
+                    <div class="booksy">
+                        <a href="https://booksy.com/pl-pl/140487_pasja-salon-masazu-spa_masaz_22068_bydgoszcz"
+                            target="_blank" class="offer-card booksy-card text-dark">
+                            <h5 class="booksy-small">Pełna oferta i cennik na</h5>
+                            <img class="img-small" src="./img/icons/booksy_croped.svg" alt="logo Booksy">
+                        </a>
+                    </div>
+
+                </div> <!-- accordion end! -->
+
+                <!-- buttons -->
+                <div class="buttons-main">
+                    <a class="btn btn-outline-light" href="#contact">Skontaktuj się z nami</a>
+
+                </div>
+
+            </div> <!-- container end -->
+        </section>
+
+        <section id="reviews" class="reviews py-5">
+            <div class="container">
+                <h2 class="section-title">Opinie naszych klientów</h2>
+
+                <!-- Flickity HTML init -->
+
+                <div class="gallery js-flickity"
+                    data-flickity-options='{ "wrapAround": true, "draggable": false, "autoPlay": 4000, "setGallerySize": true, "adaptiveHeight": false, "pageDots": false }'>
+                    <!-- 1 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Byłam w salonie na 2-godzinnym masażu ponieważ miałam bóle.Pani Dorota dokonała
+                                    cudu,wyszłam rozluźniona i zrelaksowana.Bardzo polecam.Ja również napewno odwiedzę w
+                                    przyszłości salon...</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Ewa Ogorzalek</p>
+                                <p class="source">Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Było ekstra, o czasie, miło, klimatycznie, a przede wszystkim celnie w punkt
+                                    spustowy. jestem kilka dni po i nadal czuję luz i ulgę. Własnie zamierzam zapisać
+                                    się na kolejny zabieg.</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Bożena K</p>
+                                <p class="source">Booksy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Jeśli dokuczają Tobie problemy ze snem polecam masaż głowy po nim przespałam całą
+                                    noc, obudziłam się wypoczęta , rozluźniona w dobrym nastroju przez cały dzień.</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Ewelina Kruza</p>
+                                <p class="source">Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Polecam serdecznie miła atmosfera czułam się bezpiecznie, spokojnie i najważniejsze
+                                    zrelaksowana. Polecam pana Tomasza bardzo ciepła osoba.</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- andrea s</p>
+                                <p class="source">Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Bardzo polecam! Profesjonalne podejście do klienta i jego potrzeb. Przyjemna
+                                    atmosfera, miła rozmowa, czyściutko i zdezynfekowane. Na pewno umówię kolejną
+                                    wizytę! :)</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Lucyna Kończak</p>
+                                <p class="source">Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Profesjonalne podejście do klienta. Wybraliśmy z partnerem masaż dla par. Całkowicie
+                                    zrelaksowani wyszliśmy ze studia. Z pewnością wrócimy ponownie.</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Izabela Dobrowolska</p>
+                                <p class="source">Facebook</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="gallery-cell">
+                        <div class="review-card">
+                            <div class="quote-mark">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div class="stars-box">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <div class="text-box">
+                                <p>Nie może być inna ocena jak 5/5 przy tak profesjonalnym podejściu do zabiegu.
+                                    Dziękuję za pomoc i polecam ten salon :D</p>
+                            </div>
+                            <div class="client-name">
+                                <p class="name">- Agnieszka S</p>
+                                <p class="source">Booksy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- gallery end -->
+
+                <div class="button-container">
+                    <a href="https://www.google.com/search?sa=X&sca_esv=600239789&hl=pl-PL&tbm=lcl&sxsrf=ACQVn0_7k1HcJL3XHxLwNv2eOheaPYazOA:1705850217741&q=PASJA+Salon+Masa%C5%BCu+%26+SPA+Opinie&rflfq=1&num=20&stick=H4sIAAAAAAAAAONgkxI2MjIzMzUyMzY3sjA0NjQ0NTI22sDI-IpRIcAx2MtRITgxJz9PwTexOPHonlIFNYXgAEcF_4LMvMzURawElQAA79fLdWAAAAA&rldimm=2266526372813115232&ved=2ahUKEwjjvJKi4-6DAxVXQ_EDHYkTBJ0Q9fQKegQIExAF&biw=1920&bih=957&dpr=1#lkt=LocalPoiReviews"
+                        target="_blank" type="button" class="btn btn-outline-light">Więcej opinii</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="contact p-5 pb-1 px-1">
+            <div class="container">
+
+                <h2 class="section-title mt-1">Zapraszamy do kontaktu</h2>
+                <div class="row">
+
+                    <div class="contact-content box col-12 col-md-3">
+                        <p class="p-heading">KONTAKT</p>
+                        <p class="contact-adress"><span><i class="fa-solid fa-location-dot"></i></span>Bartosza
+                            Głowackiego 5
+                            <br>
+                            85-717 Bydgoszcz
+                        </p>
+                        <div class="contact-phone">
+                            <div class="icons">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </div>
+                            <div class="numbers">
+                                <p class="tomek">+48 502 752 362</p>
+                                <p class="piotr">+48 530 333 767</p>
+                            </div>
+                        </div>
+                        <!-- <a href="https://maps.google.com/maps?ll=53.13269,18.038114&z=14&t=m&hl=pl&gl=PL&mapclient=embed&cid=2266526372813115232"
+                            target="_blank">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                        </a> -->
+                    </div>
+                    <div class="sign-up box col-12 col-sm-6 col-md-3">
+                        <p class="p-heading">ZAPISZ SIĘ</p>
+                        <a href="https://booksy.com/pl-pl/140487_pasja-salon-masazu-spa_masaz_22068_bydgoszcz"
+                            target="_blank">
+                            <img src="./img/icons/booksy-black.jpg" alt="ikonka booksy">
+                            <span>Booksy</span>
+                        </a>
+                    </div>
+                    <div class="media-box box col-12 col-sm-6 col-md-3">
+                        <p class="p-heading">ZNAJDŹ NAS</p>
+                        <a href="https://www.facebook.com/profile.php?id=100083222947848" target="_blank">
+                            <img src="./img/icons/facebook.png" alt="ikonka facebooka">
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    <div class="logo col-12 col col-md-3">
+                        <img src="./img/logo/logo_tiny_croped.jpg" alt="">
+                    </div>
+                </div> <!-- row end! -->
+                <!-- <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9574.987322614601!2d18.0381144!3d53.1326901!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470313a0526b6ccf%3A0x1f7451ba3d948f60!2sPASJA%20Salon%20Masa%C5%BCu%20%26%20SPA!5e0!3m2!1spl!2spl!4v1694592026065!5m2!1spl!2spl"
+                        height="250" width="100%" style="border:0;" allowfullscreen="true" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div> -->
+            </div> <!-- container end  -->
+        </section>
+
+    </main>
+
+    <footer class="bg-black text-light py-4 text-center">
+        <p class="mb-0">&copy; 2024 | Pasja</p>
+    </footer>
+
+
+
+    <!-- flickity js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- my js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
